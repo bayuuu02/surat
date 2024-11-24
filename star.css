@@ -1,4 +1,5 @@
-#night-sky {
+  #night-sky 
+{
     position: fixed;
     z-index: -1;
     top: 0;
@@ -9,12 +10,14 @@
     display: flex;
     justify-content: space-between;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-  }
-  #night-sky .star {
+}
+  #night-sky .star 
+{
     --travel: 100vw;
     --size: 1;
-  }
-  #night-sky .star {
+}
+  #night-sky .star 
+{
     position: relative;
     background: linear-gradient(-45deg, lightseagreen, rgba(0, 0, 255, 0));
     filter: drop-shadow(0 0 6px lightseagreen);
@@ -27,8 +30,9 @@
     animation-delay: var(--delay);
     top: var(--top);
     left: var(--left);
-  }
-  #night-sky .star::after {
+}
+  #night-sky .star::after 
+{
     content: "";
     position: absolute;
     bottom: -12px;
@@ -40,8 +44,9 @@
     -webkit-clip-path: polygon(0% 50%, 40% 40%, 50% 0%, 60% 40%, 60% 40%, 100% 50%, 60% 60%, 50% 100%, 40% 60%, 0% 50%);
             clip-path: polygon(0% 50%, 40% 40%, 50% 0%, 60% 40%, 60% 40%, 100% 50%, 60% 60%, 50% 100%, 40% 60%, 0% 50%);
     transform: rotate(45deg);
-  }
-  @keyframes shooting-star {
+}
+  @keyframes shooting-star 
+{
     0% {
       opacity: 0;
     }
@@ -54,4 +59,4 @@
     100% {
       transform: translate(var(--travel), var(--travel)) rotate(-45deg);
     }
-  }/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

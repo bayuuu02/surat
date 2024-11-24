@@ -302,9 +302,9 @@ body {
 
 .letter {
   position: relative;
-  background-image: url('images/ndut.jpg'); /* Pastikan path gambar benar */
+  background-image: url('images/zahra.jpg'); /* Pastikan path gambar benar */
   background-size: cover; /* Menyesuaikan gambar dengan ukuran elemen */
-  background-position: center; /* Memastikan gambar berada di tengah */
+   /* Memastikan gambar berada di tengah */
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -327,6 +327,9 @@ body {
     rgba(239, 215, 239, 0.7) 55%,
     #eed7ef 100%
   );
+
+  
+
 }
 
 
