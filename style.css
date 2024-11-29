@@ -302,7 +302,7 @@ body {
 
 .letter {
   position: relative;
-  background-image: url('images/zahra.jpg'); /* Pastikan path gambar benar */
+  background-image: url('images/bila.jpg'); /* Pastikan path gambar benar */
   background-size: cover; /* Menyesuaikan gambar dengan ukuran elemen */
    /* Memastikan gambar berada di tengah */
   width: 90%;
